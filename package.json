@@ -1,0 +1,14 @@
+{
+  "name": "x-practice-schedule-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Monitor public X profiles for practice schedule announcements without X login.",
+  "scripts": {
+    "monitor": "node scripts/monitor.js",
+    "self-test": "node scripts/monitor.js --self-test"
+  },
+  "dependencies": {
+    "playwright": "^1.54.0"
+  }
+}
